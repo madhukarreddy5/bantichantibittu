@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>amazon clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    *{
+        margin:0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    .navbar
+    {
+        height: 55px;
+        width: 100%;
+        background-color: #131921;
+        display: flex;
+        color: white;
+    }
+    .amazonlogo
+    {
+        
+        width: 110px;
+        height: 46px;
+        margin-left: 1px;
+        position: relative;
+        
+    }
+    .amazonlogo:hover
+    {
+        border: 1.5px solid white;
+    }
+    .address
+    {
+        height:46px;
+        width:138.767;
+        position: relative;
+        top: 5px;
+        margin-left: 2px;
+        padding-top: 3px;
+        
+    }
+    .address:hover
+    {
+        border: 1.5px solid white;
+    }
+    .search
+    {
+        display: flex;  
+        justify-content: space-evenly;
+        margin-left: 3px;
+        margin-top:5px;
+        height: 40px;
+        width:620px;
+        background-color: pink;
+        border-radius: 4px;
+        
+          
+    }
+    .alloption
+    {
+        background-color: #f3f3f3;
+        border: none;
+    }
+    .searchbar
+    {
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="amazonlogo">
+                  <img src="amazon_logo.png" height="60px" >
+            </div>
+            <div class="address">
+                <p style="color: dimgray;padding-left: 16px;font-size: small;">hello</p>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p style="display: inline;">select your address</p>
+            </div>
+            <div class="search">
+                <select name="all" class="alloption">
+                    <option value=all>All</option>
+                </select>
+                <input type="text" placeholder="search" class="searchbar">
+                <div class="searchicon">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
